@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Isabella Nascimento Chaves">
-    <meta name="description" content="Página sobre cinema, desenvolvida no curso de LIMA do Senai. O objetivo é aprender a construir página web">
+    <meta name="description"
+        content="Página sobre cinema, desenvolvida no curso de LIMA do Senai. O objetivo é aprender a construir página web">
     <meta name="keywords" content="HTML, CSS, Filmes, cinema">
     <title>SpaceCine</title>
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Cabeçalho -->
-     <header>
+    <header>
         <!-- Grupo 1 -->
         <img src="./src/assets/images/logo.svg" alt="Logo do SpacaCine">
 
@@ -30,16 +35,17 @@
         </nav>
 
         <!-- Grupos 3 -->
-       <nav>
+        <nav>
             <a href="" class="btnLogin">Login</a>
         </nav>
     </header>
 
-<!-- Main = Sessão principal da página  -->
+    <!-- Main = Sessão principal da página  -->
 
     <main>
         <h1>Vingadores <span class="text-highlight">Ultimato</span></h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since 1966,</p>
         <nav>
             <a href="" class="btnPrimary">Comprar agora</a>
             <a href="" class="btnSecondary">Ver mais</a>
@@ -47,17 +53,17 @@
     </main>
 
     <!-- Section -->
-     <section class="section-showing">
+    <section class="section-showing">
 
         <div class="showing-content">
             <span>Agora no spacecine</span>
             <h2>Filmes em cartaz</h2>
         </div>
-        
+
         <div class="showing-container-movies">
             <div class="card-movies">
                 <!-- Filme Para todos os garotos... -->
-                <img src="./src/assets/images/movie1.svg" alt="Capa do filmePara todos os garotos..." loading="lazy">
+                <img src="./src/assets/images/movie1.svg" alt="Capa do filme Para todos os garotos..." loading="lazy">
                 <h3>Para todos os garotos...</h3>
 
                 <!-- Avaliação, horas e genero -->
@@ -68,12 +74,58 @@
                         <span>4.9</span>
                     </div>
                 </div>
-
-                <img src="./src/assets/images/movie2.svg" alt="Capa do filmeVelozes e Furiosos 11" loading="lazy">
+            </div>
+            <div class="card-movies">
+                <img src="./src/assets/images/movie2.svg" alt="Capa do filme Velozes e Furiosos 11" loading="lazy">
                 <h3>Velozes e Furiosos 11</h3>
+
+                <div class="movies-details">
+                    <span>Ação - 2h 10m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/star.svg" alt="Estrela de avaliação" loading="lazy">
+                        <span>4.5</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-movies">
+                <img src="./src/assets/images/movie3.svg" alt="Capa do filme Gente Grande 3" loading="lazy">
+                <h3>Gente Grande 3</h3>
+
+                <div class="movies-details">
+                    <span>Comédia - 1h 50m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/star.svg" alt="Estrela de avaliação" loading="lazy">
+                        <span>5.0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-movies">
+                <img src="./src/assets/images/movie4.svg" alt="Capa do filme Avatar" loading="lazy">
+                <h3>Avatar</h3>
+
+                <div class="movies-details">
+                    <span>Ficção - 2h 40m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/star.svg" alt="Estrela de avaliação" loading="lazy">
+                        <span>4.9</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-movies">
+                <img src="./src/assets/images/movie5.svg" alt="Capa do filme Homem aranha: Um novo..." loading="lazy">
+                <h3>Homem aranha: Um novo...</h3>
+
+                <div class="movies-details">
+                    <span>Ação - 2h 15m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/star.svg" alt="Estrela de avaliação" loading="lazy">
+                        <span>5.0</span>
+                    </div>
+                </div>
             </div>
         </div>
 
-     </section>
+    </section>
 </body>
+
 </html>
